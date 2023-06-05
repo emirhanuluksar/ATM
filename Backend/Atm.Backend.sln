@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Atm.Backend.Core", "Atm.Backend.Core", "{8D297FBC-91EC-4B63-A823-A1AAC7EE24C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atm.Backend.Core.Application", "Atm.Backend.Core\Atm.Backend.Core.Application\Atm.Backend.Core.Application.csproj", "{F8CF1EEC-FF02-40B9-AD8C-F08F17F6887B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atm.Backend.Core.Domain", "Atm.Backend.Core\Atm.Backend.Core.Domain\Atm.Backend.Core.Domain.csproj", "{29FC7DE0-5224-4252-AE19-AFF28245F387}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atm.Backend.Infrastructure", "Atm.Backend.Infrastructure\Atm.Backend.Infrastructure.csproj", "{57D2A4B0-C998-412F-B780-899608E73C55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atm.Backend.Persistence", "Atm.Backend.Persistence\Atm.Backend.Persistence.csproj", "{C3177BB8-1A1B-4E63-A090-3977914C3103}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atm.Backend.Web", "Atm.Backend.Web\Atm.Backend.Web.csproj", "{6F1C6CC8-DE38-488E-AC5C-5BBA338234A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8CF1EEC-FF02-40B9-AD8C-F08F17F6887B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8CF1EEC-FF02-40B9-AD8C-F08F17F6887B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8CF1EEC-FF02-40B9-AD8C-F08F17F6887B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8CF1EEC-FF02-40B9-AD8C-F08F17F6887B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29FC7DE0-5224-4252-AE19-AFF28245F387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29FC7DE0-5224-4252-AE19-AFF28245F387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29FC7DE0-5224-4252-AE19-AFF28245F387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29FC7DE0-5224-4252-AE19-AFF28245F387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57D2A4B0-C998-412F-B780-899608E73C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D2A4B0-C998-412F-B780-899608E73C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D2A4B0-C998-412F-B780-899608E73C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D2A4B0-C998-412F-B780-899608E73C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3177BB8-1A1B-4E63-A090-3977914C3103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3177BB8-1A1B-4E63-A090-3977914C3103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3177BB8-1A1B-4E63-A090-3977914C3103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3177BB8-1A1B-4E63-A090-3977914C3103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F1C6CC8-DE38-488E-AC5C-5BBA338234A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F1C6CC8-DE38-488E-AC5C-5BBA338234A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F1C6CC8-DE38-488E-AC5C-5BBA338234A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F1C6CC8-DE38-488E-AC5C-5BBA338234A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8CF1EEC-FF02-40B9-AD8C-F08F17F6887B} = {8D297FBC-91EC-4B63-A823-A1AAC7EE24C5}
+		{29FC7DE0-5224-4252-AE19-AFF28245F387} = {8D297FBC-91EC-4B63-A823-A1AAC7EE24C5}
+	EndGlobalSection
+EndGlobal

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Atm.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Atm.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Atm.Common.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Atm.Common/1.0.0": {
+      "type": "project",
+      "path": "../../Common/Atm.Common/Atm.Common.csproj",
+      "msbuildProject": "../../Common/Atm.Common/Atm.Common.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Atm.Common >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/emirhanuluksar/.nuget/packages/": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/emirhanuluksar/DevProjects/UluarsATM/ATM/Common/Atm.Common/Atm.Common.csproj": {
+              "projectPath": "/Users/emirhanuluksar/DevProjects/UluarsATM/ATM/Common/Atm.Common/Atm.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

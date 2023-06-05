@@ -4,6 +4,59 @@
     "/Users/emirhanuluksar/DevProjects/UluarsATM/ATM/Common/tests/Atm.Common.Tests/Atm.Common.Tests.csproj": {}
   },
   "projects": {
+    "/Users/emirhanuluksar/DevProjects/UluarsATM/ATM/Common/Atm.Common/Atm.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emirhanuluksar/DevProjects/UluarsATM/ATM/Common/Atm.Common/Atm.Common.csproj",
+        "projectName": "Atm.Common",
+        "projectPath": "/Users/emirhanuluksar/DevProjects/UluarsATM/ATM/Common/Atm.Common/Atm.Common.csproj",
+        "packagesPath": "/Users/emirhanuluksar/.nuget/packages/",
+        "outputPath": "/Users/emirhanuluksar/DevProjects/UluarsATM/ATM/Common/Atm.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/emirhanuluksar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/emirhanuluksar/DevProjects/UluarsATM/ATM/Common/tests/Atm.Common.Tests/Atm.Common.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -25,7 +78,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/emirhanuluksar/DevProjects/UluarsATM/ATM/Common/Atm.Common/Atm.Common.csproj": {
+                "projectPath": "/Users/emirhanuluksar/DevProjects/UluarsATM/ATM/Common/Atm.Common/Atm.Common.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
