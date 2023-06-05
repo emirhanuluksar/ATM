@@ -1,5 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <ItemGroup>
+    <ProjectReference Include="..\Atm.Backend.Core\Atm.Backend.Core.Application\Atm.Backend.Core.Application.csproj" />
+    <ProjectReference Include="..\Atm.Backend.Persistence\Atm.Backend.Persistence.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
